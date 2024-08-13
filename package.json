@@ -1,0 +1,28 @@
+{
+  "name": "chun",
+  "version": "1.0.0",
+  "description": "chun website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chris",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "nodemailer": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "connect-flash": "*",
+    "express-message": "*",
+    "express-validator": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "passpot-http": "*",  
+    "multer": "*"
+  },
+  "keywords": []
+}

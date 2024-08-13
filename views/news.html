@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+    </style>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewpoint">
+        <title>淳手作</title>
+        <link rel="stylesheet" href="style.css">    
+    </head>
+    <body>
+        <div class="background-cover"></div>
+        <div class="notification" id="notification">
+            <button class="close-btn" onclick="closeNotification()">×</button>
+            <h1>2024年8月1號起</h1>
+            <h1>粽合挫冰及豆花漲價五元</h1>
+        </div>
+        <header>
+        <div class="logo-container">
+            <img src="/public/image/logo.png" alt="淳手作" class="logo">
+            <h1>淳手作</h1>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="/views/index.html">首頁</li>
+                    <li><a href="/views/news.html">產品消息</a></li>
+                    <li><a href="/views/site.html">門市據點</a></li>
+                    <li><a href="/views/about.html">關於我們</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="slideshow-container">
+                <div class="mySlides">
+                    <img src="/public/image/photo1.jpg" class="slide-image" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides">
+                    <img src="/public/image/photo2.jpg" class="slide-image" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides">
+                    <img src="/public/image/photo3.jpg" class="slide-image" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <div class="mySlides">
+                    <img src="/public/image/photo5.jpg" class="slide-image" style="width:100%">
+                    <div class="text"></div>
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </section>
+            <br>
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span> 
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+        </main>    
+        <footer>
+            <script src="/public/javascript/slideshow.js"></script>
+            <script>
+                function closeNotification() {
+                    document.getElementById('notification').style.display = 'none';
+                }
+            </script>
+        </footer>
+    </body>
+</html>

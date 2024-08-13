@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+    <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700&display=swap');
+        </style>
+        <meta charset="utf-8">
+        <meta name="viewpoint">
+        <title>淳手作</title>
+        <link rel="stylesheet" href="style.css">  
+    </head>
+    <body>
+        <header>
+        <div class="logo-container">
+            <img src="/public/image/logo.png" alt="淳手作" class="logo">
+            <h1>淳手作</h1>
+        </div>
+            <nav>
+                <ul>
+                    <li><a href="/views/index.html">首頁</li>
+                    <li><a href="/views/news.html">最新消息</a></li>
+                    <li><a href="/views/site.html">門市據點</a></li>
+                    <li><a href="/views/about.html">關於我們</a></li>
+                    <li><a href="/views/login.html">登入</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main style="background-color:antiquewhite">
+            <section class="login-wrapper">
+                <div class="login-container">
+                    <h2>會員登入</h2>
+                    <form action="/login" method="post">
+                        <input type="text" name="username" placeholder="帳號" required>
+                            <input type="password" name="password" placeholder="密碼" required>
+                            <div class="register-link">
+                                <a href="/register">註冊</a>
+                            </div>
+                        <button type="submit">送出</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div>
+                &copy; 2024 淳手作
+            </div>
+        </footer>
+    </body>
+</html>
